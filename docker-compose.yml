@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  test-server:
+    build: ./docker/test-server
+    volumes:
+      - ./test-server:/app
+  selenium-chrome:
+    build: ./docker/selenium-chrome
+    ports:
+        - '4444:4444'
+        - '5900:5900'
+

@@ -1,0 +1,8 @@
+{
+    "name": "root/app",
+    "require": {
+        "phpunit/phpunit": "^9.2",
+        "php-webdriver/webdriver": "^1.8",
+        "fabpot/goutte": "^4.0"
+    }
+}
